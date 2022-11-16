@@ -84,3 +84,36 @@ body {
   margin: 0 auto;
   padding: 0px 10px;
 }
+
+.header {
+  padding-top: 25px;
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 40px;
+  padding-top: 25px;
+}
+
+.meni-left {
+  padding-left: 25px;
+}
+
+.menu-link {
+  font-size: 16px;
+  color: #363636;
+}
+
+.menu-right {
+  padding-right: 86px;
+}

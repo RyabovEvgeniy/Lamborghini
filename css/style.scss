@@ -34,4 +34,39 @@ body {
 	max-width: 1220px;
 	margin: 0 auto;
 	padding: 0px 10px;
-} 
+}
+
+// header
+.header {
+	padding-top: 25px;
+
+	// .header__container
+
+	&__container {
+	}
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+.menu-list {
+	display: flex;
+	gap: 0 40px;
+	padding-top: 25px;
+}
+.meni-left {
+	padding-left: 25px;
+}
+.menu-item {
+}
+.menu-link {
+	font-size: 16px;
+	color: $darkgrey;
+}
+.logo {
+}
+.logo-img {
+}
+.menu-right {
+	padding-right: 86px;
+}
