@@ -1,0 +1,37 @@
+@import "_null";
+
+// Основные цвета
+$black: #040404;
+$darkgrey: #363636;;
+$gold: #9F6B08;
+$lightgold: #F9CE5C;
+//$gradientlight: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%;
+$white: #FFFFFF;
+
+// Основные CSS настройки страницы
+body {
+	// font-family: "Merriweather", serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	background: $white;
+	color: $black;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.2;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.main {
+	flex: 1 1 auto;
+}
+.none {
+	display: none !important;
+}
+[class*="__container"] {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0px 10px;
+} 
