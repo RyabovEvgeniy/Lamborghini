@@ -41,7 +41,7 @@ body {
 	padding: 0px 10px;
 }
 @font-face {
-	font-family: 'Impact', sans-serif;
+	font-family: "Impact", sans-serif;
 	src: url(../font/impact.woff2);
 }
 
@@ -51,7 +51,7 @@ body {
 	position: absolute;
 	left: 0;
 	right: 0;
-	background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
+	background: linear-gradient(180deg, #d8d4ca 0%, rgba(217, 217, 217, 0) 100%);
 
 	// .header__container
 
@@ -86,14 +86,14 @@ body {
 
 // promo
 .promo {
-	background: url('../img/promo.jpg') center center / cover no-repeat;
+	background: url("../img/promo.jpg") center center / cover no-repeat;
 	// .promo__container
-	
+
 	&__container {
 	}
-	
+
 	// .promo__inner
-	
+
 	&__inner {
 		padding-top: 100px;
 		display: flex;
@@ -105,7 +105,7 @@ body {
 	// .promo__title
 
 	&__title {
-		font-family: 'Impact', sans-serif;
+		font-family: "Impact", sans-serif;
 		font-size: 76px;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
@@ -115,7 +115,7 @@ body {
 	// .promo__subtitle
 
 	&__subtitle {
-		font-family: 'Impact', sans-serif;
+		font-family: "Impact", sans-serif;
 		font-size: 48px;
 		border-bottom: 1px solid $black;
 		margin-bottom: 10px;
@@ -124,7 +124,7 @@ body {
 			display: block;
 			color: $gold;
 			font-size: 34px;
-			padding: 10px 0;			
+			padding: 10px 0;
 		}
 	}
 
@@ -189,3 +189,47 @@ body {
 	}
 }
 
+// teams
+.teams {
+	padding-bottom: 66px;
+
+	// .teams__container
+
+	&__container {
+	}
+
+	// .teams__inner
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	// .teams__content
+
+	&__content {
+
+	}
+
+	// .teams__title
+
+	&__title {
+		font-weight: 300;
+		font-size: 32px;
+		margin-bottom: 30px;
+	}
+
+	// .teams__text
+
+	&__text {
+		max-width: 352px;
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+
+	// .teams__img
+
+	&__img {
+	}
+}
