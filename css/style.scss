@@ -282,3 +282,39 @@ body {
 		}
 	}
 }
+
+// track
+.track {
+	padding: 50px 0 90px;
+	background: url('../img/track-bg.png') center / cover no-repeat;
+
+	// .track__container
+
+	&__container {
+	}
+
+	// .track__title
+
+	&__title {
+		font-weight: 300;
+		font-size: 32px;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+
+	// .track__text
+
+	&__text {
+		max-width: 435px;
+		margin-bottom: 250px;
+	}
+
+	// .track__img
+
+	&__img {
+		display: block;
+		margin: 0 auto;
+		object-fit: cover;
+	}
+}
+
