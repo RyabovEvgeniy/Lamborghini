@@ -208,7 +208,6 @@ body {
 	// .teams__content
 
 	&__content {
-
 	}
 
 	// .teams__title
@@ -231,5 +230,55 @@ body {
 	// .teams__img
 
 	&__img {
+		object-fit: cover;
+	}
+}
+
+// calendar
+.calendar {
+	padding-bottom: 100px;
+
+	// .calendar__container
+
+	&__container {
+	}
+
+	// .calendar__inner
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	// .calendar__content
+
+	&__content {
+		max-width: 377px;
+	}
+
+	// .calendar__title
+
+	&__title {
+		font-weight: 300;
+		font-size: 32px;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+
+	// .calendar__text
+
+	&__text {
+	}
+
+	// .calendar__table
+
+	&__table {
+		padding: 20px 0 0;
+		flex-basis: 450px;
+		border-bottom: 1px solid $black;
+		border-top: 1px solid $black;
+		td {
+			padding-bottom: 20px;
+		}
 	}
 }
