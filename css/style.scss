@@ -286,7 +286,7 @@ body {
 // track
 .track {
 	padding: 50px 0 90px;
-	background: url('../img/track-bg.png') center / cover no-repeat;
+	background: url("../img/track-bg.png") center / cover no-repeat;
 
 	// .track__container
 
@@ -318,3 +318,157 @@ body {
 	}
 }
 
+// evo
+.evo {
+	
+	// .evo__container
+	
+	&__container {
+	}
+}
+.evo-top {
+	padding: 100px 0 50px;
+	background-color: $darkgrey;
+	color: $white;
+
+	// .evo-top__inner
+
+	&__inner {
+		position: relative;
+		&::before {
+			content: '';
+			background-image: url(../img/evo-decor1.svg);
+			width: 185px;
+			height: 213px;
+			position: absolute;
+			top: 217px;
+			left: -152px;
+		}
+		&::after {
+			content: '';
+			background-image: url(../img/evo-decor2.svg);
+			width: 498px;
+			height: 572px;
+			position: absolute;
+			top: 299px;
+			left: -55px;
+		}
+	}
+	
+	// .evo-top__info
+	
+	&__info {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 198px;
+	}
+	
+	// .evo-top__title
+
+	&__title {
+		font-weight: 300;
+		font-size: 32px;
+		text-transform: uppercase;
+		padding-right: 50px;
+	}
+	
+	// .evo-top__infobox
+	
+	&__infobox {
+		flex-basis: 437px;
+	}
+	
+	// .evo-top__text
+	
+	&__text {
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+	
+	// .evo-top__img
+	
+	&__img {
+		display: block;
+		margin: 0 auto 58px;
+		position: relative;
+		z-index: 50;
+	}
+}
+.evo-top-list {
+	display: flex;
+	justify-content: center;
+	gap: 0 65px;
+	position: relative;
+	z-index: 50;
+	// .evo-top-list__item
+
+	&__item {
+		text-transform: uppercase;
+	}
+}
+.evo-bottom {
+	// .evo-bottom__inner
+
+	&__inner {
+		padding-top: 126px;
+		position: relative;
+		&::before {
+			content: '';
+			background: url('../img/evo-decor3.png') 0 0 no-repeat;
+			width: 274px;
+			height: 257px;
+			position: absolute;
+			top: -18px;
+			left: 375px;
+		}
+		&::after {
+			content: '';
+			background: url('../img/evo-decor4.png') 0 0 no-repeat;
+			width: 324px;
+			height: 311px;
+			position: absolute;
+			top: 126px;
+			left: 610px;
+		}
+	}
+
+	// .evo-bottom__text
+
+	&__text {
+
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+		&:first-child {
+			max-width: 285px;
+		}
+		&:nth-child(2) {
+			max-width: 437px;			
+		}
+		&:nth-child(3) {
+			max-width: 590px;			
+		}
+	}
+
+	// .evo-bottom__video
+
+	&__video {
+		margin: 100px 0;
+		background: url('../img/evo-video-bg.png') center / cover no-repeat;
+		height: 264px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	// .evo-bottom__video-link
+
+	&__video-link {		
+		span {
+			display: block;
+			color: $white;
+		}
+	}
+}
