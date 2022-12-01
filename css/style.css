@@ -79,14 +79,14 @@ body {
   display: none !important;
 }
 
-[class*=__container-big] {
-  max-width: 1220px;
+[class*=__container] {
+  max-width: 920px;
   margin: 0 auto;
   padding: 0px 10px;
 }
 
-[class*=__container] {
-  max-width: 920px;
+[class*=__container-big] {
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0px 10px;
 }
